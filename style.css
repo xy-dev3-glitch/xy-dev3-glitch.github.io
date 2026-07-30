@@ -1,0 +1,242 @@
+/* ===== الإعدادات العامة ===== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0F0F0F;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* ===== الشريط العلوي ===== */
+
+.navbar {
+    background: #181818;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    border-bottom: 2px solid #FF7A00;
+}
+
+.logo {
+    color: #FF7A00;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #FF7A00;
+}
+
+/* ===== قسم الترحيب ===== */
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.profile-image {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 4px solid #FF7A00;
+    object-fit: cover;
+}
+
+.hero h1 {
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.hero p {
+    margin-top: 15px;
+    color: #BBBBBB;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.8;
+}
+
+/* ===== الألعاب ===== */
+
+.games {
+    padding: 60px 10%;
+}
+
+.games h2 {
+    text-align: center;
+    color: #FF7A00;
+    margin-bottom: 40px;
+}
+
+.games-container {
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+
+    gap: 30px;
+
+    max-width: 1200px;
+
+    margin: auto;
+}
+
+.game-card {
+    background: #1A1A1A;
+
+    width: 100%;
+    max-width: 350px;
+
+    margin: auto;
+
+    border-radius: 15px;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+
+    transition: .3s;
+}
+
+.game-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 20px #FF7A00;
+}
+
+.game-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.game-card h3 {
+    margin: 15px;
+    text-align: center;
+}
+
+.game-card p {
+    margin: 0 15px;
+    color: white;
+    line-height: 1.7;
+    text-align: center;
+
+    flex: 1;
+}
+
+.game-card button {
+
+    margin: 20px;
+
+    align-self: center;
+
+    width: 170px;
+    height: 45px;
+
+    background: #FF7A00;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    transition: .3s;
+}
+
+.game-card button:hover {
+    background: #FF9500;
+}
+
+/* ===== الفوتر ===== */
+
+footer {
+    margin-top: 60px;
+    background: #181818;
+    border-top: 2px solid #FF7A00;
+    text-align: center;
+    padding: 25px;
+    color: #AAAAAA;
+}
+/* ===== حالة المشروع ===== */
+
+.status {
+    display: inline-block;
+    margin: 15px;
+    padding: 8px 14px;
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.developing {
+    background: rgba(0, 255, 0, 0.15);
+    color: #42ff73;
+    border: 1px solid #42ff73;
+}
+
+.paused {
+    background: rgba(255, 193, 7, 0.15);
+    color: #ffc107;
+    border: 1px solid #ffc107;
+}
+
+.archived {
+    background: rgba(255, 60, 60, 0.15);
+    color: #ff5b5b;
+    border: 1px solid #ff5b5b;
+}
+
+.game-button{
+    display: block;
+
+    width: 170px;
+
+    margin: 20px auto;
+
+    padding: 12px;
+
+    background: #FF7A00;
+
+    color: white;
+
+    text-decoration: none;
+
+    text-align: center;
+
+    border-radius: 10px;
+
+    transition: .3s;
+}
+
+.game-button:hover{
+    background: #FF9500;
+}
+
+.downloads {
+    padding: 60px 10%;
+}
+
+.downloads h2 {
+    text-align: center;
+    color: #FF7A00;
+    margin-bottom: 40px;
+}
