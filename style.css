@@ -188,21 +188,27 @@ footer {
 }
 
 .developing {
-    background: rgba(0, 255, 0, 0.15);
-    color: #42ff73;
-    border: 1px solid #42ff73;
+    background: rgba(255, 238, 0, 0.15);
+    color: #ffe600;
+    border: 1px solid #ffd900;
 }
 
 .paused {
-    background: rgba(255, 193, 7, 0.15);
-    color: #ffc107;
-    border: 1px solid #ffc107;
+    background: rgba(255, 0, 0, 0.301);
+    color: #ff0000;
+    border: 1px solid #ff0000;
 }
 
 .archived {
-    background: rgba(255, 60, 60, 0.15);
-    color: #ff5b5b;
-    border: 1px solid #ff5b5b;
+    background: rgba(27, 1, 255, 0.247);
+    color: #0026ff;
+    border: 1px solid #0026ff;
+}
+
+.complete {
+    background: rgba(30, 255, 0, 0.26);
+    color: #5eff00;
+    border: 1px solid #5eff00;
 }
 
 .game-button{
@@ -239,4 +245,14 @@ footer {
     text-align: center;
     color: #FF7A00;
     margin-bottom: 40px;
+}
+
+.archive {
+    text-align: center;
+    color: #FF7A00;
+    margin-bottom: 40px;
+}
+
+.archive h2 {
+    padding: 60px 10%;
 }
